@@ -1,0 +1,190 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    background: #eee;
+    height: 100%;
+   
+}
+
+main{
+    width: 75vw;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+      -30px 0px 40px rgba(0, 0, 0, 0.1);
+    
+
+}
+
+.inite{
+    scroll-behavior: smooth;
+}
+
+.top{
+    background: #ffff;
+}
+
+.text-top{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+
+}
+
+.text-top-t h2{
+    color: #888;
+}
+
+.bnt{
+    padding: 0.5vw 1vw;
+    border: 1px #ccc solid;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+    transition: background 500ms ease;
+}
+
+.bnt:hover{
+    background: #f4f4f4;
+}
+
+#verfotos-ps{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#imagem-inicial{
+    background: url(../Assets/img/caixa-dagua.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    margin: 0;
+    flex: 0 1 60vw;
+}
+
+#link1, #link2, #link-flower, #link-pl {
+   margin: auto;
+} 
+
+li{
+    list-style-type: none;
+    display: flex;
+}
+
+#top-por-do-sol{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-bottom:1px solid ;
+    border-bottom-width: length 10px;
+    padding-bottom: 10px;
+}
+
+#text-por-do-sol{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+   
+}
+
+#ps-rigth{
+    border-left: 1px solid;
+    padding: 0 10% 0 20%;
+
+}
+
+#ps-left{ 
+    padding: 0 20% 0 10%;
+}
+
+#ps1{
+    background: url(../Assets/img/rio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    margin: 0;
+    flex: 0 1 60vw;
+}
+#ps2{
+    background: url(../Assets/img/person-rio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    margin: 0;
+    flex: 0 1 60vw;
+}
+#ps3{
+    background: url(../Assets/img/pordosol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    margin: 0;
+    flex: 0 1 60vw;
+}
+#ps4{
+    background: url(../Assets/img/pastor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    margin: 0;
+    flex: 0 1 60vw;
+}
+#ps5{
+    background: url(../Assets/img/teia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    margin: 0;
+    flex: 0 1 60vw;
+}
+
+footer{
+    width: 75vw;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#ft-tx-lefth{
+    padding: 0 15% 0 10%;
+}
+
+#ft-tx-rigth{
+    border-left: 1px solid;
+    padding: 0 0 0 10%;
+}
+
+.description{
+    padding: 0.8rem;
+    text-align: center;
+}
